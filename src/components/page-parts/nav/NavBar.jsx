@@ -4,10 +4,9 @@ import { NavLink, useLocation } from 'react-router-dom';
 const NavBar = () => {
   return (
     <>
-      <nav className='nav'>
-        <div className="container">
+      <nav className='nav'>        
           <div className="navbar">
-          <img  src='assets/logo-go-png.png' className='logo' /> 
+          <img  src='assets/logo.jpg' className='logo' /> 
             <ul>
               <li><NavLink to="/">Home</NavLink></li>
               <li><NavLink to="/about">About Us</NavLink></li>
@@ -15,7 +14,7 @@ const NavBar = () => {
               <li><NavLink to="/contact">Contact Us</NavLink></li>
             </ul>
           </div>
-        </div>
+        
       </nav>
     </>
   )

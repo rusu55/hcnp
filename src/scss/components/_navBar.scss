@@ -1,17 +1,17 @@
 @use '../abstracts/' as *;
 
 .nav{
-    height: 7rem;
+    height: 8rem;
     background: $white;
     width: 100%;
     z-index: 100;
 
     .navbar{
-        @include align(flex, space-between, center, 7rem);
+        @include align(flex, space-between, center, 8rem);
         .logo{
             z-index:99;
-            width: 30rem;
-            height: 7rem;
+            width: 24rem;
+            height: 7.5rem;
             object-fit: cover;
         }
         ul{
